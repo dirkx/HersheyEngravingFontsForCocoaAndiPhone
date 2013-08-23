@@ -31,10 +31,7 @@
 @interface Hershey : NSObject
 
 @property (readonly,nonatomic) NSString *name;
-// @property (readonly,nonatomic) int baseY, acccentX;
-
 @property (readonly,nonatomic) NSDictionary *glyphDefinitions;
-
 @property (readonly,nonatomic) int baseY; // baseline
 @property (readonly,nonatomic) int accentY; // height
 

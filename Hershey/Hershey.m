@@ -125,6 +125,19 @@ NSString * const kHersheyDefaultFontExtension = @"jhf";
         // Docs:
         //  The structure is bascially as follows: each character consists of a number 1->4000 (not all used) in column 0:4, the number of vertices in columns 5:7, the left hand position in column 8, the right hand position in column 9, and finally the vertices in single character pairs. All coordinates are given relative to the ascii value of 'R'. If the coordinate value is " R" that indicates a pen up operation.
         
+        // Actual interpretation seems to be that the # vertices count is in fact a
+        // count for the number of pairs that follow (including the left/right
+        // extremes, ref 0 below).
+        //
+        // And a ' R' move also counts as a pair. (ref 1)
+        //
+        // Furthermore a \n should be ignored if there are still pairs left
+        // to go and we've got more than 72 chars on a line. (ref 2)
+        //
+        // And there may appear to be a superfluous \n if the line length is
+        // exactly 72 chars. (ref 3)
+        //
+        
         char idxbuff[5];
         if (ptr+5 >= eptr) {
             NSLog(@"%@ - failed to read line %d of %@ (no idx).", [[self class] description], line, path);
@@ -162,8 +175,11 @@ NSString * const kHersheyDefaultFontExtension = @"jhf";
         
         NSBezierPath * path = [[NSBezierPath alloc] init];
         
+        // for the -1 -- see 'ref 0' above.
+        //
         for(int i = 0; i < vc-1; i++) {
             if (*ptr == '\n') {
+                // see ref 2 above
                 ptr++;
                 line++;
             }
@@ -173,6 +189,8 @@ NSString * const kHersheyDefaultFontExtension = @"jhf";
                     NSLog(@"%@ - failed to read line %d of %@ (move).", [[self class] description], line, path);
                     return nil;
                 }
+                // for the +2 -- see 'ref 1' above.
+                //
                 ptr += 2;
                 ops = MOVE;
                 continue;
@@ -202,7 +220,8 @@ NSString * const kHersheyDefaultFontExtension = @"jhf";
                 NSLog(@"     %@ vx%04d/%04d %c%c ->  %d,%d", ops == MOVE ? @"move" : @"draw", i+1, vc,  ptr[-2], ptr[-1], x,y);
             ops = DRAW;
         }
-        // Special case for exact 72 char lines.
+        // Special case for exact 72 char lines (ref 3 above)
+        //
         while(*ptr == '\n' && ptr[1] == '\n' && ptr + 2 < eptr)
             ptr++;
         
