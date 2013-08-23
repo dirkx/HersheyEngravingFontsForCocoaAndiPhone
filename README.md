@@ -1,6 +1,7 @@
 
 Typical use:
 
+<code>
   #include "Hershey.h"
 
   NSString * testStr = @"The quick brown fox jumps over the lazy dog.";
@@ -15,4 +16,5 @@ Typical use:
 
   [p stroke];
 
+</code>
 
