@@ -1,6 +1,0 @@
-font_identifier:="Gothic Italian";
-input hershey10.mf
-font_coding_scheme:="Hershey Gothic Italian";
-input pen.mf
-input hgoi.mf
-input metrics.mf
