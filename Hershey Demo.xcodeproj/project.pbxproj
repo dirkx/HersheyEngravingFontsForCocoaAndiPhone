@@ -1,0 +1,762 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		32A2D54F17C53884006EDCB7 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32A2D54E17C53884006EDCB7 /* Cocoa.framework */; };
+		32A2D55917C53884006EDCB7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 32A2D55717C53884006EDCB7 /* InfoPlist.strings */; };
+		32A2D55B17C53884006EDCB7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A2D55A17C53884006EDCB7 /* main.m */; };
+		32A2D55F17C53884006EDCB7 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 32A2D55D17C53884006EDCB7 /* Credits.rtf */; };
+		32A2D56217C53884006EDCB7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A2D56117C53884006EDCB7 /* AppDelegate.m */; };
+		32A2D56517C53884006EDCB7 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32A2D56317C53884006EDCB7 /* MainMenu.xib */; };
+		32A2D57117C538D9006EDCB7 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32A2D54E17C53884006EDCB7 /* Cocoa.framework */; };
+		32A2D57717C538D9006EDCB7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 32A2D57517C538D9006EDCB7 /* InfoPlist.strings */; };
+		32A2D57B17C538D9006EDCB7 /* Hershey.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A2D57A17C538D9006EDCB7 /* Hershey.m */; };
+		32A2D58317C538D9006EDCB7 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32A2D58217C538D9006EDCB7 /* SenTestingKit.framework */; };
+		32A2D58417C538D9006EDCB7 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32A2D54E17C53884006EDCB7 /* Cocoa.framework */; };
+		32A2D58717C538D9006EDCB7 /* Hershey.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32A2D57017C538D9006EDCB7 /* Hershey.framework */; };
+		32A2D58D17C538D9006EDCB7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 32A2D58B17C538D9006EDCB7 /* InfoPlist.strings */; };
+		32A2D59017C538D9006EDCB7 /* HersheyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A2D58F17C538D9006EDCB7 /* HersheyTests.m */; };
+		32A2D5BC17C539D1006EDCB7 /* timesr.jhf in Resources */ = {isa = PBXBuildFile; fileRef = 32A2D59817C539D1006EDCB7 /* timesr.jhf */; };
+		32A2D5BD17C539D1006EDCB7 /* timesrb.jhf in Resources */ = {isa = PBXBuildFile; fileRef = 32A2D59917C539D1006EDCB7 /* timesrb.jhf */; };
+		32A2D5BE17C539D1006EDCB7 /* timesg.jhf in Resources */ = {isa = PBXBuildFile; fileRef = 32A2D59A17C539D1006EDCB7 /* timesg.jhf */; };
+		32A2D5BF17C539D1006EDCB7 /* timesi.jhf in Resources */ = {isa = PBXBuildFile; fileRef = 32A2D59B17C539D1006EDCB7 /* timesi.jhf */; };
+		32A2D5C017C539D1006EDCB7 /* timesib.jhf in Resources */ = {isa = PBXBuildFile; fileRef = 32A2D59C17C539D1006EDCB7 /* timesib.jhf */; };
+		32A2D5C117C539D1006EDCB7 /* symbolic.jhf in Resources */ = {isa = PBXBuildFile; fileRef = 32A2D59D17C539D1006EDCB7 /* symbolic.jhf */; };
+		32A2D5C217C539D1006EDCB7 /* rowmant.jhf in Resources */ = {isa = PBXBuildFile; fileRef = 32A2D59E17C539D1006EDCB7 /* rowmant.jhf */; };
+		32A2D5C317C539D1006EDCB7 /* scriptc.jhf in Resources */ = {isa = PBXBuildFile; fileRef = 32A2D59F17C539D1006EDCB7 /* scriptc.jhf */; };
+		32A2D5C417C539D1006EDCB7 /* scripts.jhf in Resources */ = {isa = PBXBuildFile; fileRef = 32A2D5A017C539D1006EDCB7 /* scripts.jhf */; };
+		32A2D5C517C539D1006EDCB7 /* meteorology.jhf in Resources */ = {isa = PBXBuildFile; fileRef = 32A2D5A117C539D1006EDCB7 /* meteorology.jhf */; };
+		32A2D5C617C539D1006EDCB7 /* music.jhf in Resources */ = {isa = PBXBuildFile; fileRef = 32A2D5A217C539D1006EDCB7 /* music.jhf */; };
+		32A2D5C717C539D1006EDCB7 /* rowmand.jhf in Resources */ = {isa = PBXBuildFile; fileRef = 32A2D5A317C539D1006EDCB7 /* rowmand.jhf */; };
+		32A2D5C817C539D1006EDCB7 /* rowmans.jhf in Resources */ = {isa = PBXBuildFile; fileRef = 32A2D5A417C539D1006EDCB7 /* rowmans.jhf */; };
+		32A2D5C917C539D1006EDCB7 /* japanese.jhf in Resources */ = {isa = PBXBuildFile; fileRef = 32A2D5A517C539D1006EDCB7 /* japanese.jhf */; };
+		32A2D5CA17C539D1006EDCB7 /* markers.jhf in Resources */ = {isa = PBXBuildFile; fileRef = 32A2D5A617C539D1006EDCB7 /* markers.jhf */; };
+		32A2D5CB17C539D1006EDCB7 /* mathlow.jhf in Resources */ = {isa = PBXBuildFile; fileRef = 32A2D5A717C539D1006EDCB7 /* mathlow.jhf */; };
+		32A2D5CC17C539D1006EDCB7 /* mathupp.jhf in Resources */ = {isa = PBXBuildFile; fileRef = 32A2D5A817C539D1006EDCB7 /* mathupp.jhf */; };
+		32A2D5CE17C539D1006EDCB7 /* greek.jhf in Resources */ = {isa = PBXBuildFile; fileRef = 32A2D5AA17C539D1006EDCB7 /* greek.jhf */; };
+		32A2D5CF17C539D1006EDCB7 /* greekc.jhf in Resources */ = {isa = PBXBuildFile; fileRef = 32A2D5AB17C539D1006EDCB7 /* greekc.jhf */; };
+		32A2D5D017C539D1006EDCB7 /* greeks.jhf in Resources */ = {isa = PBXBuildFile; fileRef = 32A2D5AC17C539D1006EDCB7 /* greeks.jhf */; };
+		32A2D5D217C539D1006EDCB7 /* gothicger.jhf in Resources */ = {isa = PBXBuildFile; fileRef = 32A2D5AE17C539D1006EDCB7 /* gothicger.jhf */; };
+		32A2D5D317C539D1006EDCB7 /* gothicita.jhf in Resources */ = {isa = PBXBuildFile; fileRef = 32A2D5AF17C539D1006EDCB7 /* gothicita.jhf */; };
+		32A2D5D417C539D1006EDCB7 /* gothitt.jhf in Resources */ = {isa = PBXBuildFile; fileRef = 32A2D5B017C539D1006EDCB7 /* gothitt.jhf */; };
+		32A2D5D517C539D1006EDCB7 /* gothgbt.jhf in Resources */ = {isa = PBXBuildFile; fileRef = 32A2D5B117C539D1006EDCB7 /* gothgbt.jhf */; };
+		32A2D5D617C539D1006EDCB7 /* gothgrt.jhf in Resources */ = {isa = PBXBuildFile; fileRef = 32A2D5B217C539D1006EDCB7 /* gothgrt.jhf */; };
+		32A2D5D717C539D1006EDCB7 /* gothiceng.jhf in Resources */ = {isa = PBXBuildFile; fileRef = 32A2D5B317C539D1006EDCB7 /* gothiceng.jhf */; };
+		32A2D5D817C539D1006EDCB7 /* futural.jhf in Resources */ = {isa = PBXBuildFile; fileRef = 32A2D5B417C539D1006EDCB7 /* futural.jhf */; };
+		32A2D5D917C539D1006EDCB7 /* futuram.jhf in Resources */ = {isa = PBXBuildFile; fileRef = 32A2D5B517C539D1006EDCB7 /* futuram.jhf */; };
+		32A2D5DA17C539D1006EDCB7 /* cyrillic.jhf in Resources */ = {isa = PBXBuildFile; fileRef = 32A2D5B617C539D1006EDCB7 /* cyrillic.jhf */; };
+		32A2D5DB17C539D1006EDCB7 /* cursive.jhf in Resources */ = {isa = PBXBuildFile; fileRef = 32A2D5B717C539D1006EDCB7 /* cursive.jhf */; };
+		32A2D5DC17C539D1006EDCB7 /* cyrilc_1.jhf in Resources */ = {isa = PBXBuildFile; fileRef = 32A2D5B817C539D1006EDCB7 /* cyrilc_1.jhf */; };
+		32A2D5DD17C539D1006EDCB7 /* astrology.jhf in Resources */ = {isa = PBXBuildFile; fileRef = 32A2D5B917C539D1006EDCB7 /* astrology.jhf */; };
+		32A2D5DE17C539D1006EDCB7 /* README.html in Resources */ = {isa = PBXBuildFile; fileRef = 32A2D5BA17C539D1006EDCB7 /* README.html */; };
+		32A2D5E417C55F2D006EDCB7 /* Hershey.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32A2D57017C538D9006EDCB7 /* Hershey.framework */; };
+		32A2D5E517C5FE4A006EDCB7 /* HersheyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A2D5E117C55D36006EDCB7 /* HersheyView.m */; };
+		32A2D5E817C60121006EDCB7 /* PlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A2D5E717C60121006EDCB7 /* PlayView.m */; };
+		32A2D5EB17C73B7F006EDCB7 /* CatalogueView.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A2D5EA17C73B7F006EDCB7 /* CatalogueView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		32A2D58517C538D9006EDCB7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32A2D54317C53884006EDCB7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32A2D56F17C538D9006EDCB7;
+			remoteInfo = Hershey;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		32A2D54B17C53884006EDCB7 /* Hershey Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hershey Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		32A2D54E17C53884006EDCB7 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		32A2D55117C53884006EDCB7 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		32A2D55217C53884006EDCB7 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		32A2D55317C53884006EDCB7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		32A2D55617C53884006EDCB7 /* Hershey Demo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Hershey Demo-Info.plist"; sourceTree = "<group>"; };
+		32A2D55817C53884006EDCB7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		32A2D55A17C53884006EDCB7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32A2D55C17C53884006EDCB7 /* Hershey Demo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Hershey Demo-Prefix.pch"; sourceTree = "<group>"; };
+		32A2D55E17C53884006EDCB7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		32A2D56017C53884006EDCB7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		32A2D56117C53884006EDCB7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		32A2D56417C53884006EDCB7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		32A2D57017C538D9006EDCB7 /* Hershey.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Hershey.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		32A2D57417C538D9006EDCB7 /* Hershey-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Hershey-Info.plist"; sourceTree = "<group>"; };
+		32A2D57617C538D9006EDCB7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		32A2D57817C538D9006EDCB7 /* Hershey-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Hershey-Prefix.pch"; sourceTree = "<group>"; };
+		32A2D57917C538D9006EDCB7 /* Hershey.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Hershey.h; sourceTree = "<group>"; };
+		32A2D57A17C538D9006EDCB7 /* Hershey.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Hershey.m; sourceTree = "<group>"; };
+		32A2D58117C538D9006EDCB7 /* HersheyTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HersheyTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		32A2D58217C538D9006EDCB7 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		32A2D58A17C538D9006EDCB7 /* HersheyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HersheyTests-Info.plist"; sourceTree = "<group>"; };
+		32A2D58C17C538D9006EDCB7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		32A2D58E17C538D9006EDCB7 /* HersheyTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HersheyTests.h; sourceTree = "<group>"; };
+		32A2D58F17C538D9006EDCB7 /* HersheyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HersheyTests.m; sourceTree = "<group>"; };
+		32A2D59817C539D1006EDCB7 /* timesr.jhf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = timesr.jhf; path = fonts/timesr.jhf; sourceTree = "<group>"; };
+		32A2D59917C539D1006EDCB7 /* timesrb.jhf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = timesrb.jhf; path = fonts/timesrb.jhf; sourceTree = "<group>"; };
+		32A2D59A17C539D1006EDCB7 /* timesg.jhf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = timesg.jhf; path = fonts/timesg.jhf; sourceTree = "<group>"; };
+		32A2D59B17C539D1006EDCB7 /* timesi.jhf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = timesi.jhf; path = fonts/timesi.jhf; sourceTree = "<group>"; };
+		32A2D59C17C539D1006EDCB7 /* timesib.jhf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = timesib.jhf; path = fonts/timesib.jhf; sourceTree = "<group>"; };
+		32A2D59D17C539D1006EDCB7 /* symbolic.jhf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = symbolic.jhf; path = fonts/symbolic.jhf; sourceTree = "<group>"; };
+		32A2D59E17C539D1006EDCB7 /* rowmant.jhf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = rowmant.jhf; path = fonts/rowmant.jhf; sourceTree = "<group>"; };
+		32A2D59F17C539D1006EDCB7 /* scriptc.jhf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = scriptc.jhf; path = fonts/scriptc.jhf; sourceTree = "<group>"; };
+		32A2D5A017C539D1006EDCB7 /* scripts.jhf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; lineEnding = 0; name = scripts.jhf; path = fonts/scripts.jhf; sourceTree = "<group>"; };
+		32A2D5A117C539D1006EDCB7 /* meteorology.jhf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = meteorology.jhf; path = fonts/meteorology.jhf; sourceTree = "<group>"; };
+		32A2D5A217C539D1006EDCB7 /* music.jhf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = music.jhf; path = fonts/music.jhf; sourceTree = "<group>"; };
+		32A2D5A317C539D1006EDCB7 /* rowmand.jhf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = rowmand.jhf; path = fonts/rowmand.jhf; sourceTree = "<group>"; };
+		32A2D5A417C539D1006EDCB7 /* rowmans.jhf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = rowmans.jhf; path = fonts/rowmans.jhf; sourceTree = "<group>"; };
+		32A2D5A517C539D1006EDCB7 /* japanese.jhf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = japanese.jhf; path = fonts/japanese.jhf; sourceTree = "<group>"; };
+		32A2D5A617C539D1006EDCB7 /* markers.jhf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = markers.jhf; path = fonts/markers.jhf; sourceTree = "<group>"; };
+		32A2D5A717C539D1006EDCB7 /* mathlow.jhf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = mathlow.jhf; path = fonts/mathlow.jhf; sourceTree = "<group>"; };
+		32A2D5A817C539D1006EDCB7 /* mathupp.jhf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = mathupp.jhf; path = fonts/mathupp.jhf; sourceTree = "<group>"; };
+		32A2D5AA17C539D1006EDCB7 /* greek.jhf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = greek.jhf; path = fonts/greek.jhf; sourceTree = "<group>"; };
+		32A2D5AB17C539D1006EDCB7 /* greekc.jhf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; lineEnding = 0; name = greekc.jhf; path = fonts/greekc.jhf; sourceTree = "<group>"; };
+		32A2D5AC17C539D1006EDCB7 /* greeks.jhf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; lineEnding = 0; name = greeks.jhf; path = fonts/greeks.jhf; sourceTree = "<group>"; };
+		32A2D5AD17C539D1006EDCB7 /* hershey.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = hershey.txt; path = fonts/hershey.txt; sourceTree = "<group>"; };
+		32A2D5AE17C539D1006EDCB7 /* gothicger.jhf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = gothicger.jhf; path = fonts/gothicger.jhf; sourceTree = "<group>"; };
+		32A2D5AF17C539D1006EDCB7 /* gothicita.jhf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = gothicita.jhf; path = fonts/gothicita.jhf; sourceTree = "<group>"; };
+		32A2D5B017C539D1006EDCB7 /* gothitt.jhf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = gothitt.jhf; path = fonts/gothitt.jhf; sourceTree = "<group>"; };
+		32A2D5B117C539D1006EDCB7 /* gothgbt.jhf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = gothgbt.jhf; path = fonts/gothgbt.jhf; sourceTree = "<group>"; };
+		32A2D5B217C539D1006EDCB7 /* gothgrt.jhf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = gothgrt.jhf; path = fonts/gothgrt.jhf; sourceTree = "<group>"; };
+		32A2D5B317C539D1006EDCB7 /* gothiceng.jhf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = gothiceng.jhf; path = fonts/gothiceng.jhf; sourceTree = "<group>"; };
+		32A2D5B417C539D1006EDCB7 /* futural.jhf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = futural.jhf; path = fonts/futural.jhf; sourceTree = "<group>"; };
+		32A2D5B517C539D1006EDCB7 /* futuram.jhf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = futuram.jhf; path = fonts/futuram.jhf; sourceTree = "<group>"; };
+		32A2D5B617C539D1006EDCB7 /* cyrillic.jhf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = cyrillic.jhf; path = fonts/cyrillic.jhf; sourceTree = "<group>"; };
+		32A2D5B717C539D1006EDCB7 /* cursive.jhf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = cursive.jhf; path = fonts/cursive.jhf; sourceTree = "<group>"; };
+		32A2D5B817C539D1006EDCB7 /* cyrilc_1.jhf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; lineEnding = 0; name = cyrilc_1.jhf; path = fonts/cyrilc_1.jhf; sourceTree = "<group>"; };
+		32A2D5B917C539D1006EDCB7 /* astrology.jhf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = astrology.jhf; path = fonts/astrology.jhf; sourceTree = "<group>"; };
+		32A2D5BA17C539D1006EDCB7 /* README.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = README.html; path = fonts/README.html; sourceTree = "<group>"; };
+		32A2D5BB17C539D1006EDCB7 /* URLs.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = URLs.txt; path = fonts/URLs.txt; sourceTree = "<group>"; };
+		32A2D5E017C55D36006EDCB7 /* HersheyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HersheyView.h; path = Hershey/HersheyView.h; sourceTree = SOURCE_ROOT; };
+		32A2D5E117C55D36006EDCB7 /* HersheyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HersheyView.m; path = Hershey/HersheyView.m; sourceTree = SOURCE_ROOT; };
+		32A2D5E617C60121006EDCB7 /* PlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayView.h; sourceTree = "<group>"; };
+		32A2D5E717C60121006EDCB7 /* PlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayView.m; sourceTree = "<group>"; };
+		32A2D5E917C73B7F006EDCB7 /* CatalogueView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CatalogueView.h; sourceTree = "<group>"; };
+		32A2D5EA17C73B7F006EDCB7 /* CatalogueView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CatalogueView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32A2D54817C53884006EDCB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32A2D5E417C55F2D006EDCB7 /* Hershey.framework in Frameworks */,
+				32A2D54F17C53884006EDCB7 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32A2D56C17C538D9006EDCB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32A2D57117C538D9006EDCB7 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32A2D57D17C538D9006EDCB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32A2D58317C538D9006EDCB7 /* SenTestingKit.framework in Frameworks */,
+				32A2D58417C538D9006EDCB7 /* Cocoa.framework in Frameworks */,
+				32A2D58717C538D9006EDCB7 /* Hershey.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32A2D54217C53884006EDCB7 = {
+			isa = PBXGroup;
+			children = (
+				32A2D55417C53884006EDCB7 /* Hershey Demo */,
+				32A2D57217C538D9006EDCB7 /* Hershey */,
+				32A2D58817C538D9006EDCB7 /* HersheyTests */,
+				32A2D54D17C53884006EDCB7 /* Frameworks */,
+				32A2D54C17C53884006EDCB7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		32A2D54C17C53884006EDCB7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32A2D54B17C53884006EDCB7 /* Hershey Demo.app */,
+				32A2D57017C538D9006EDCB7 /* Hershey.framework */,
+				32A2D58117C538D9006EDCB7 /* HersheyTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32A2D54D17C53884006EDCB7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				32A2D54E17C53884006EDCB7 /* Cocoa.framework */,
+				32A2D58217C538D9006EDCB7 /* SenTestingKit.framework */,
+				32A2D55017C53884006EDCB7 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		32A2D55017C53884006EDCB7 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				32A2D55117C53884006EDCB7 /* AppKit.framework */,
+				32A2D55217C53884006EDCB7 /* CoreData.framework */,
+				32A2D55317C53884006EDCB7 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		32A2D55417C53884006EDCB7 /* Hershey Demo */ = {
+			isa = PBXGroup;
+			children = (
+				32A2D56017C53884006EDCB7 /* AppDelegate.h */,
+				32A2D56117C53884006EDCB7 /* AppDelegate.m */,
+				32A2D5E017C55D36006EDCB7 /* HersheyView.h */,
+				32A2D5E117C55D36006EDCB7 /* HersheyView.m */,
+				32A2D5E617C60121006EDCB7 /* PlayView.h */,
+				32A2D5E717C60121006EDCB7 /* PlayView.m */,
+				32A2D5E917C73B7F006EDCB7 /* CatalogueView.h */,
+				32A2D5EA17C73B7F006EDCB7 /* CatalogueView.m */,
+				32A2D55517C53884006EDCB7 /* Supporting Files */,
+			);
+			path = "Hershey Demo";
+			sourceTree = "<group>";
+		};
+		32A2D55517C53884006EDCB7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				32A2D56317C53884006EDCB7 /* MainMenu.xib */,
+				32A2D55617C53884006EDCB7 /* Hershey Demo-Info.plist */,
+				32A2D55717C53884006EDCB7 /* InfoPlist.strings */,
+				32A2D55A17C53884006EDCB7 /* main.m */,
+				32A2D55C17C53884006EDCB7 /* Hershey Demo-Prefix.pch */,
+				32A2D55D17C53884006EDCB7 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		32A2D57217C538D9006EDCB7 /* Hershey */ = {
+			isa = PBXGroup;
+			children = (
+				32A2D57917C538D9006EDCB7 /* Hershey.h */,
+				32A2D57A17C538D9006EDCB7 /* Hershey.m */,
+				32A2D57317C538D9006EDCB7 /* Supporting Files */,
+			);
+			path = Hershey;
+			sourceTree = "<group>";
+		};
+		32A2D57317C538D9006EDCB7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				32A2D59717C538EA006EDCB7 /* Fonts */,
+				32A2D57417C538D9006EDCB7 /* Hershey-Info.plist */,
+				32A2D57517C538D9006EDCB7 /* InfoPlist.strings */,
+				32A2D57817C538D9006EDCB7 /* Hershey-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		32A2D58817C538D9006EDCB7 /* HersheyTests */ = {
+			isa = PBXGroup;
+			children = (
+				32A2D58E17C538D9006EDCB7 /* HersheyTests.h */,
+				32A2D58F17C538D9006EDCB7 /* HersheyTests.m */,
+				32A2D58917C538D9006EDCB7 /* Supporting Files */,
+			);
+			path = HersheyTests;
+			sourceTree = "<group>";
+		};
+		32A2D58917C538D9006EDCB7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				32A2D58A17C538D9006EDCB7 /* HersheyTests-Info.plist */,
+				32A2D58B17C538D9006EDCB7 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		32A2D59717C538EA006EDCB7 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				32A2D5BA17C539D1006EDCB7 /* README.html */,
+				32A2D5BB17C539D1006EDCB7 /* URLs.txt */,
+				32A2D5AD17C539D1006EDCB7 /* hershey.txt */,
+				32A2D59817C539D1006EDCB7 /* timesr.jhf */,
+				32A2D59917C539D1006EDCB7 /* timesrb.jhf */,
+				32A2D59A17C539D1006EDCB7 /* timesg.jhf */,
+				32A2D59B17C539D1006EDCB7 /* timesi.jhf */,
+				32A2D59C17C539D1006EDCB7 /* timesib.jhf */,
+				32A2D59D17C539D1006EDCB7 /* symbolic.jhf */,
+				32A2D59E17C539D1006EDCB7 /* rowmant.jhf */,
+				32A2D59F17C539D1006EDCB7 /* scriptc.jhf */,
+				32A2D5A017C539D1006EDCB7 /* scripts.jhf */,
+				32A2D5A117C539D1006EDCB7 /* meteorology.jhf */,
+				32A2D5A217C539D1006EDCB7 /* music.jhf */,
+				32A2D5A317C539D1006EDCB7 /* rowmand.jhf */,
+				32A2D5A417C539D1006EDCB7 /* rowmans.jhf */,
+				32A2D5A517C539D1006EDCB7 /* japanese.jhf */,
+				32A2D5A617C539D1006EDCB7 /* markers.jhf */,
+				32A2D5A717C539D1006EDCB7 /* mathlow.jhf */,
+				32A2D5A817C539D1006EDCB7 /* mathupp.jhf */,
+				32A2D5AA17C539D1006EDCB7 /* greek.jhf */,
+				32A2D5AB17C539D1006EDCB7 /* greekc.jhf */,
+				32A2D5AC17C539D1006EDCB7 /* greeks.jhf */,
+				32A2D5AE17C539D1006EDCB7 /* gothicger.jhf */,
+				32A2D5AF17C539D1006EDCB7 /* gothicita.jhf */,
+				32A2D5B017C539D1006EDCB7 /* gothitt.jhf */,
+				32A2D5B117C539D1006EDCB7 /* gothgbt.jhf */,
+				32A2D5B217C539D1006EDCB7 /* gothgrt.jhf */,
+				32A2D5B317C539D1006EDCB7 /* gothiceng.jhf */,
+				32A2D5B417C539D1006EDCB7 /* futural.jhf */,
+				32A2D5B517C539D1006EDCB7 /* futuram.jhf */,
+				32A2D5B617C539D1006EDCB7 /* cyrillic.jhf */,
+				32A2D5B717C539D1006EDCB7 /* cursive.jhf */,
+				32A2D5B817C539D1006EDCB7 /* cyrilc_1.jhf */,
+				32A2D5B917C539D1006EDCB7 /* astrology.jhf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		32A2D56D17C538D9006EDCB7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		32A2D54A17C53884006EDCB7 /* Hershey Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32A2D56817C53884006EDCB7 /* Build configuration list for PBXNativeTarget "Hershey Demo" */;
+			buildPhases = (
+				32A2D54717C53884006EDCB7 /* Sources */,
+				32A2D54817C53884006EDCB7 /* Frameworks */,
+				32A2D54917C53884006EDCB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hershey Demo";
+			productName = "Hershey Demo";
+			productReference = 32A2D54B17C53884006EDCB7 /* Hershey Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		32A2D56F17C538D9006EDCB7 /* Hershey */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32A2D59117C538D9006EDCB7 /* Build configuration list for PBXNativeTarget "Hershey" */;
+			buildPhases = (
+				32A2D56B17C538D9006EDCB7 /* Sources */,
+				32A2D56C17C538D9006EDCB7 /* Frameworks */,
+				32A2D56D17C538D9006EDCB7 /* Headers */,
+				32A2D56E17C538D9006EDCB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hershey;
+			productName = Hershey;
+			productReference = 32A2D57017C538D9006EDCB7 /* Hershey.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		32A2D58017C538D9006EDCB7 /* HersheyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32A2D59417C538D9006EDCB7 /* Build configuration list for PBXNativeTarget "HersheyTests" */;
+			buildPhases = (
+				32A2D57C17C538D9006EDCB7 /* Sources */,
+				32A2D57D17C538D9006EDCB7 /* Frameworks */,
+				32A2D57E17C538D9006EDCB7 /* Resources */,
+				32A2D57F17C538D9006EDCB7 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32A2D58617C538D9006EDCB7 /* PBXTargetDependency */,
+			);
+			name = HersheyTests;
+			productName = HersheyTests;
+			productReference = 32A2D58117C538D9006EDCB7 /* HersheyTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		32A2D54317C53884006EDCB7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Dirk-Willem van Gulik";
+			};
+			buildConfigurationList = 32A2D54617C53884006EDCB7 /* Build configuration list for PBXProject "Hershey Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 32A2D54217C53884006EDCB7;
+			productRefGroup = 32A2D54C17C53884006EDCB7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				32A2D54A17C53884006EDCB7 /* Hershey Demo */,
+				32A2D56F17C538D9006EDCB7 /* Hershey */,
+				32A2D58017C538D9006EDCB7 /* HersheyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		32A2D54917C53884006EDCB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32A2D55917C53884006EDCB7 /* InfoPlist.strings in Resources */,
+				32A2D55F17C53884006EDCB7 /* Credits.rtf in Resources */,
+				32A2D56517C53884006EDCB7 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32A2D56E17C538D9006EDCB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32A2D57717C538D9006EDCB7 /* InfoPlist.strings in Resources */,
+				32A2D5BC17C539D1006EDCB7 /* timesr.jhf in Resources */,
+				32A2D5BD17C539D1006EDCB7 /* timesrb.jhf in Resources */,
+				32A2D5BE17C539D1006EDCB7 /* timesg.jhf in Resources */,
+				32A2D5BF17C539D1006EDCB7 /* timesi.jhf in Resources */,
+				32A2D5C017C539D1006EDCB7 /* timesib.jhf in Resources */,
+				32A2D5C117C539D1006EDCB7 /* symbolic.jhf in Resources */,
+				32A2D5C217C539D1006EDCB7 /* rowmant.jhf in Resources */,
+				32A2D5C317C539D1006EDCB7 /* scriptc.jhf in Resources */,
+				32A2D5C417C539D1006EDCB7 /* scripts.jhf in Resources */,
+				32A2D5C517C539D1006EDCB7 /* meteorology.jhf in Resources */,
+				32A2D5C617C539D1006EDCB7 /* music.jhf in Resources */,
+				32A2D5C717C539D1006EDCB7 /* rowmand.jhf in Resources */,
+				32A2D5C817C539D1006EDCB7 /* rowmans.jhf in Resources */,
+				32A2D5C917C539D1006EDCB7 /* japanese.jhf in Resources */,
+				32A2D5CA17C539D1006EDCB7 /* markers.jhf in Resources */,
+				32A2D5CB17C539D1006EDCB7 /* mathlow.jhf in Resources */,
+				32A2D5CC17C539D1006EDCB7 /* mathupp.jhf in Resources */,
+				32A2D5CE17C539D1006EDCB7 /* greek.jhf in Resources */,
+				32A2D5CF17C539D1006EDCB7 /* greekc.jhf in Resources */,
+				32A2D5D017C539D1006EDCB7 /* greeks.jhf in Resources */,
+				32A2D5D217C539D1006EDCB7 /* gothicger.jhf in Resources */,
+				32A2D5D317C539D1006EDCB7 /* gothicita.jhf in Resources */,
+				32A2D5D417C539D1006EDCB7 /* gothitt.jhf in Resources */,
+				32A2D5D517C539D1006EDCB7 /* gothgbt.jhf in Resources */,
+				32A2D5D617C539D1006EDCB7 /* gothgrt.jhf in Resources */,
+				32A2D5D717C539D1006EDCB7 /* gothiceng.jhf in Resources */,
+				32A2D5D817C539D1006EDCB7 /* futural.jhf in Resources */,
+				32A2D5D917C539D1006EDCB7 /* futuram.jhf in Resources */,
+				32A2D5DA17C539D1006EDCB7 /* cyrillic.jhf in Resources */,
+				32A2D5DB17C539D1006EDCB7 /* cursive.jhf in Resources */,
+				32A2D5DC17C539D1006EDCB7 /* cyrilc_1.jhf in Resources */,
+				32A2D5DD17C539D1006EDCB7 /* astrology.jhf in Resources */,
+				32A2D5DE17C539D1006EDCB7 /* README.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32A2D57E17C538D9006EDCB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32A2D58D17C538D9006EDCB7 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		32A2D57F17C538D9006EDCB7 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32A2D54717C53884006EDCB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32A2D55B17C53884006EDCB7 /* main.m in Sources */,
+				32A2D56217C53884006EDCB7 /* AppDelegate.m in Sources */,
+				32A2D5E517C5FE4A006EDCB7 /* HersheyView.m in Sources */,
+				32A2D5E817C60121006EDCB7 /* PlayView.m in Sources */,
+				32A2D5EB17C73B7F006EDCB7 /* CatalogueView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32A2D56B17C538D9006EDCB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32A2D57B17C538D9006EDCB7 /* Hershey.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32A2D57C17C538D9006EDCB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32A2D59017C538D9006EDCB7 /* HersheyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		32A2D58617C538D9006EDCB7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32A2D56F17C538D9006EDCB7 /* Hershey */;
+			targetProxy = 32A2D58517C538D9006EDCB7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		32A2D55717C53884006EDCB7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32A2D55817C53884006EDCB7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		32A2D55D17C53884006EDCB7 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32A2D55E17C53884006EDCB7 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		32A2D56317C53884006EDCB7 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32A2D56417C53884006EDCB7 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		32A2D57517C538D9006EDCB7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32A2D57617C538D9006EDCB7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		32A2D58B17C538D9006EDCB7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32A2D58C17C538D9006EDCB7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		32A2D56617C53884006EDCB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		32A2D56717C53884006EDCB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		32A2D56917C53884006EDCB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Hershey Demo/Hershey Demo-Prefix.pch";
+				INFOPLIST_FILE = "Hershey Demo/Hershey Demo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		32A2D56A17C53884006EDCB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Hershey Demo/Hershey Demo-Prefix.pch";
+				INFOPLIST_FILE = "Hershey Demo/Hershey Demo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		32A2D59217C538D9006EDCB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Hershey/Hershey-Prefix.pch";
+				INFOPLIST_FILE = "Hershey/Hershey-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		32A2D59317C538D9006EDCB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Hershey/Hershey-Prefix.pch";
+				INFOPLIST_FILE = "Hershey/Hershey-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+		32A2D59517C538D9006EDCB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Hershey/Hershey-Prefix.pch";
+				INFOPLIST_FILE = "HersheyTests/HersheyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		32A2D59617C538D9006EDCB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Hershey/Hershey-Prefix.pch";
+				INFOPLIST_FILE = "HersheyTests/HersheyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		32A2D54617C53884006EDCB7 /* Build configuration list for PBXProject "Hershey Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32A2D56617C53884006EDCB7 /* Debug */,
+				32A2D56717C53884006EDCB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32A2D56817C53884006EDCB7 /* Build configuration list for PBXNativeTarget "Hershey Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32A2D56917C53884006EDCB7 /* Debug */,
+				32A2D56A17C53884006EDCB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32A2D59117C538D9006EDCB7 /* Build configuration list for PBXNativeTarget "Hershey" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32A2D59217C538D9006EDCB7 /* Debug */,
+				32A2D59317C538D9006EDCB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32A2D59417C538D9006EDCB7 /* Build configuration list for PBXNativeTarget "HersheyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32A2D59517C538D9006EDCB7 /* Debug */,
+				32A2D59617C538D9006EDCB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 32A2D54317C53884006EDCB7 /* Project object */;
+}
