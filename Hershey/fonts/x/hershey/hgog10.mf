@@ -1,0 +1,6 @@
+font_identifier:="Gothic German";
+input hershey10.mf
+font_coding_scheme:="Hershey Gothic German";
+input pen.mf
+input hgog.mf
+input metrics.mf

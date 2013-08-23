@@ -1,0 +1,7 @@
+font_identifier:="Script Simplex";
+input hershey10.mf
+font_coding_scheme:="Hershey Script Simplex";
+input pen.mf
+plotter_pen:=cal.nib;
+input hscs.mf;
+input metrics.mf

@@ -1,0 +1,36 @@
+Initial source: http://emergent.unpythonic.net/software/hershey
+
+http://media.unpythonic.net/emergent-files/software/hershey/astrology.jhf
+http://media.unpythonic.net/emergent-files/software/hershey/cursive.jhf
+http://media.unpythonic.net/emergent-files/software/hershey/cyrilc_1.jhf (manual cr/lf & ^Z cleanups)
+http://media.unpythonic.net/emergent-files/software/hershey/cyrillic.jhf
+http://media.unpythonic.net/emergent-files/software/hershey/futural.jhf
+http://media.unpythonic.net/emergent-files/software/hershey/futuram.jhf
+http://media.unpythonic.net/emergent-files/software/hershey/gothgbt.jhf
+http://media.unpythonic.net/emergent-files/software/hershey/gothgrt.jhf
+http://media.unpythonic.net/emergent-files/software/hershey/gothiceng.jhf
+http://media.unpythonic.net/emergent-files/software/hershey/gothicger.jhf
+http://media.unpythonic.net/emergent-files/software/hershey/gothicita.jhf
+http://media.unpythonic.net/emergent-files/software/hershey/gothitt.jhf
+http://media.unpythonic.net/emergent-files/software/hershey/greek.jhf
+http://media.unpythonic.net/emergent-files/software/hershey/greekc.jhf (manual cr/lf & ^Z cleanups)
+http://media.unpythonic.net/emergent-files/software/hershey/greeks.jhf
+http://media.unpythonic.net/emergent-files/software/hershey/hershey.txt
+http://media.unpythonic.net/emergent-files/software/hershey/hershey.zip
+http://media.unpythonic.net/emergent-files/software/hershey/japanese.jhf
+http://media.unpythonic.net/emergent-files/software/hershey/markers.jhf
+http://media.unpythonic.net/emergent-files/software/hershey/mathlow.jhf
+http://media.unpythonic.net/emergent-files/software/hershey/mathupp.jhf
+http://media.unpythonic.net/emergent-files/software/hershey/meteorology.jhf
+http://media.unpythonic.net/emergent-files/software/hershey/music.jhf
+http://media.unpythonic.net/emergent-files/software/hershey/rowmand.jhf
+http://media.unpythonic.net/emergent-files/software/hershey/rowmans.jhf
+http://media.unpythonic.net/emergent-files/software/hershey/rowmant.jhf
+http://media.unpythonic.net/emergent-files/software/hershey/scriptc.jhf
+http://media.unpythonic.net/emergent-files/software/hershey/scripts.jhf
+http://media.unpythonic.net/emergent-files/software/hershey/symbolic.jhf
+http://media.unpythonic.net/emergent-files/software/hershey/timesg.jhf
+http://media.unpythonic.net/emergent-files/software/hershey/timesi.jhf
+http://media.unpythonic.net/emergent-files/software/hershey/timesib.jhf
+http://media.unpythonic.net/emergent-files/software/hershey/timesr.jhf
+http://media.unpythonic.net/emergent-files/software/hershey/timesrb.jhf

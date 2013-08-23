@@ -1,0 +1,14 @@
+procedure main()
+begin
+	while s := read() do
+	{
+		if many(' 0123456789', s) > 5 then
+		{
+			write()
+			writes(s)
+		}
+		else
+			writes(s)
+	}
+	write()
+end
