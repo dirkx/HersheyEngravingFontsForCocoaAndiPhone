@@ -52,11 +52,17 @@
             double x = p.x;
             double y = p.y;
             
+            if (angle > 0.45 * M_PI && angle < 0.55 * M_PI) {
+                double a = x;
+                x = y;
+                y = a;
+            } else
+            if (angle > M_PI / 2)
+                y = fontDev.accentY - y - 2 ;
+            
             if (angle > 0.8 * M_PI) {
                 x = 50 - x;
             };
-            if (angle > M_PI / 2)
-                y = fontDev.accentY - y - 2 ;
             
             double dx = y - fontDev.baseY - 0.5;
             x *= (r2 - r1)/70;

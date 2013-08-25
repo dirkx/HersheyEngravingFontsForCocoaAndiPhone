@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		324FC65E17C9935A00761483 /* SotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 324FC65D17C9935A00761483 /* SotView.m */; };
 		32A2D54F17C53884006EDCB7 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32A2D54E17C53884006EDCB7 /* Cocoa.framework */; };
 		32A2D55917C53884006EDCB7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 32A2D55717C53884006EDCB7 /* InfoPlist.strings */; };
 		32A2D55B17C53884006EDCB7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A2D55A17C53884006EDCB7 /* main.m */; };
@@ -58,6 +59,7 @@
 		32A2D5E517C5FE4A006EDCB7 /* HersheyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A2D5E117C55D36006EDCB7 /* HersheyView.m */; };
 		32A2D5E817C60121006EDCB7 /* PlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A2D5E717C60121006EDCB7 /* PlayView.m */; };
 		32A2D5EB17C73B7F006EDCB7 /* CatalogueView.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A2D5EA17C73B7F006EDCB7 /* CatalogueView.m */; };
+		32E5265117CA2CE100BDC8E9 /* PrintableWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 32E5265017CA2CE100BDC8E9 /* PrintableWindow.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +73,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		324FC65C17C9935A00761483 /* SotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SotView.h; sourceTree = "<group>"; };
+		324FC65D17C9935A00761483 /* SotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SotView.m; sourceTree = "<group>"; };
 		32A2D54B17C53884006EDCB7 /* Hershey Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hershey Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		32A2D54E17C53884006EDCB7 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		32A2D55117C53884006EDCB7 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -137,6 +141,8 @@
 		32A2D5E717C60121006EDCB7 /* PlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayView.m; sourceTree = "<group>"; };
 		32A2D5E917C73B7F006EDCB7 /* CatalogueView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CatalogueView.h; sourceTree = "<group>"; };
 		32A2D5EA17C73B7F006EDCB7 /* CatalogueView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CatalogueView.m; sourceTree = "<group>"; };
+		32E5264F17CA2CE100BDC8E9 /* PrintableWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrintableWindow.h; sourceTree = "<group>"; };
+		32E5265017CA2CE100BDC8E9 /* PrintableWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrintableWindow.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -220,8 +226,12 @@
 				32A2D5E117C55D36006EDCB7 /* HersheyView.m */,
 				32A2D5E617C60121006EDCB7 /* PlayView.h */,
 				32A2D5E717C60121006EDCB7 /* PlayView.m */,
+				324FC65C17C9935A00761483 /* SotView.h */,
+				324FC65D17C9935A00761483 /* SotView.m */,
 				32A2D5E917C73B7F006EDCB7 /* CatalogueView.h */,
 				32A2D5EA17C73B7F006EDCB7 /* CatalogueView.m */,
+				32E5264F17CA2CE100BDC8E9 /* PrintableWindow.h */,
+				32E5265017CA2CE100BDC8E9 /* PrintableWindow.m */,
 				32A2D55517C53884006EDCB7 /* Supporting Files */,
 			);
 			path = "Hershey Demo";
@@ -505,6 +515,8 @@
 				32A2D5E517C5FE4A006EDCB7 /* HersheyView.m in Sources */,
 				32A2D5E817C60121006EDCB7 /* PlayView.m in Sources */,
 				32A2D5EB17C73B7F006EDCB7 /* CatalogueView.m in Sources */,
+				324FC65E17C9935A00761483 /* SotView.m in Sources */,
+				32E5265117CA2CE100BDC8E9 /* PrintableWindow.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

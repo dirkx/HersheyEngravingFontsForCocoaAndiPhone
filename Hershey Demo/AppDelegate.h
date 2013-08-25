@@ -19,6 +19,8 @@
 // limitations under the License.
 //
 #import <Cocoa/Cocoa.h>
+#import "SotView.h"
+#import "CatalogueView.h"
 
 @interface AppDelegate : NSObject <NSApplicationDelegate>
 

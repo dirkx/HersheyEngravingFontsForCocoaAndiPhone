@@ -53,6 +53,16 @@
     [self resizeSubviewsWithOldSize:self.superview.bounds.size];
 }
 
+-(BOOL)knowsPageRange:(NSRangePointer)range {
+    range->location = 1;
+    range->length = [self.subviews count];
+    return YES;
+}
+
+- (NSRect)rectForPage:(int)page {
+    return [[self.subviews objectAtIndex:page-1] frame];
+}
+
 - (void)resizeSubviewsWithOldSize:(NSSize)oldBoundsSize
 {
     NSInteger N = [self.subviews count];

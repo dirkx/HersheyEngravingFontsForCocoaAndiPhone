@@ -34,4 +34,7 @@
 -(IBAction)openWindow:(id)sender {
     [self.catalogueWindow orderFront:sender];
 }
+
+
+
 @end
