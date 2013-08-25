@@ -74,11 +74,7 @@ NSString * const kHersheyDefaultFontExtension = @"jhf";
     }];
 }
 
--(id)init {
-    return [self initCachedWithFont:nil];
-}
-
--(id)initCachedWithFont:(NSString *)font {
++(id)bundledFont:(NSString *)font {
     if (!font)
         font = kHersheyDefaultFont;
 
@@ -89,20 +85,20 @@ NSString * const kHersheyDefaultFontExtension = @"jhf";
     NSBundle *frameworkBundle = [NSBundle bundleForClass:[self class]];
     NSString * path = [frameworkBundle pathForResource:font ofType:kHersheyDefaultFontExtension];
     
-    if (path)
-        self = [self initWithPath:path];
+    if (path) 
+        cacheDef = [[Hershey alloc] initWithPath:path];
     
-    if (self) {        
+    if (cacheDef) {        
         if (_cache == nil) {
             static dispatch_once_t once;
             dispatch_once(&once, ^{
                 _cache = [[NSMutableDictionary alloc] initWithCapacity:25];
             });
         }
-        [_cache setObject:self forKey:font];
+        [_cache setObject:cacheDef forKey:font];
     }
     
-    return self;
+    return cacheDef;
 }
 
 -(id)initWithPath:(NSString *)path {

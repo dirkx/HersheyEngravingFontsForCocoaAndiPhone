@@ -46,7 +46,7 @@
     
     for(int i = 0; i < [labels count]; i++) {
         double angle = i * M_PI / steps;
-        Hershey * fontDev = [[Hershey alloc] initCachedWithFont:kHersheyDefaultFont];
+        Hershey * fontDev = [Hershey bundledFont:kHersheyDefaultFont];
         
         NSPoint (^map)(NSPoint)= ^NSPoint(NSPoint p){
             double x = p.x;

@@ -61,7 +61,7 @@
         [NSBezierPath strokeRect:b];
 
         if (!self.font)
-            self.font = [[Hershey alloc] initCachedWithFont:kHersheyDefaultFont];
+            self.font = [Hershey bundledFont:kHersheyDefaultFont];
         
         HersheyGlyphDefinition * gdata = [self.font glyph:c];
         NSBezierPath * p = [gdata.path copy];

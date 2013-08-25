@@ -42,7 +42,7 @@ extern NSString * const kHersheyDefaultFontExtension;
 
 +(void)transformBezierPath:(NSBezierPath *)aPath withTransform:(NSPoint (^)(NSPoint p))transform;
 
--(id)initCachedWithFont:(NSString *)font;
++(id)bundledFont:(NSString *)font;
 -(id)initWithPath:(NSString *)path;
 
 -(NSArray *)orderedArrayOfGlyps;

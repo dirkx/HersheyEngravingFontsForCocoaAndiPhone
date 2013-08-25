@@ -46,7 +46,7 @@
 -(void)completeInit {
     for(NSString * font in [Hershey bundledFonts]) {
         HersheyView * fontView = [[HersheyView alloc] initWithFrame:NSMakeRect(0,0,50,50)];
-        fontView.font = [[Hershey alloc] initCachedWithFont:font];
+        fontView.font = [Hershey bundledFont:font];
         
         [self addSubview:fontView];
     }

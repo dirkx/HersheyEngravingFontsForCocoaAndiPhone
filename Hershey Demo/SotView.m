@@ -193,7 +193,7 @@
         }
         
 #if 1
-        Hershey * fontDev = [[Hershey alloc] initCachedWithFont:kHersheyDefaultFont];
+        Hershey * fontDev = [Hershey bundledFont:kHersheyDefaultFont];
         NSBezierPath * p = [fontDev copyOfPathForString:labels[ MIN(i,[labels count]-1)]
                                                withSize:100
                                           withTransform:nil];
