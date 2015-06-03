@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		324176621B1F1D70004F97EF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 324176611B1F1D70004F97EF /* main.m */; };
+		324176681B1F1D96004F97EF /* GenerateTurtle.m in Sources */ = {isa = PBXBuildFile; fileRef = 324176671B1F1D96004F97EF /* GenerateTurtle.m */; };
+		3241766C1B1F1F9F004F97EF /* Hershey.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A2D57A17C538D9006EDCB7 /* Hershey.m */; };
+		3241766D1B1F2048004F97EF /* Hershey.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32A2D57017C538D9006EDCB7 /* Hershey.framework */; };
 		324FC65E17C9935A00761483 /* SotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 324FC65D17C9935A00761483 /* SotView.m */; };
 		32A2D54F17C53884006EDCB7 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32A2D54E17C53884006EDCB7 /* Cocoa.framework */; };
 		32A2D55917C53884006EDCB7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 32A2D55717C53884006EDCB7 /* InfoPlist.strings */; };
@@ -16,7 +20,6 @@
 		32A2D56517C53884006EDCB7 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32A2D56317C53884006EDCB7 /* MainMenu.xib */; };
 		32A2D57117C538D9006EDCB7 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32A2D54E17C53884006EDCB7 /* Cocoa.framework */; };
 		32A2D57717C538D9006EDCB7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 32A2D57517C538D9006EDCB7 /* InfoPlist.strings */; };
-		32A2D57B17C538D9006EDCB7 /* Hershey.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A2D57A17C538D9006EDCB7 /* Hershey.m */; };
 		32A2D58317C538D9006EDCB7 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32A2D58217C538D9006EDCB7 /* SenTestingKit.framework */; };
 		32A2D58417C538D9006EDCB7 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32A2D54E17C53884006EDCB7 /* Cocoa.framework */; };
 		32A2D58717C538D9006EDCB7 /* Hershey.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32A2D57017C538D9006EDCB7 /* Hershey.framework */; };
@@ -63,6 +66,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		3241766A1B1F1F95004F97EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32A2D54317C53884006EDCB7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32A2D56F17C538D9006EDCB7;
+			remoteInfo = Hershey;
+		};
 		32A2D58517C538D9006EDCB7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 32A2D54317C53884006EDCB7 /* Project object */;
@@ -72,7 +82,23 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		3241765D1B1F1D70004F97EF /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		3241765F1B1F1D70004F97EF /* GenerateTurtle */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = GenerateTurtle; sourceTree = BUILT_PRODUCTS_DIR; };
+		324176611B1F1D70004F97EF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		324176661B1F1D96004F97EF /* GenerateTurtle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GenerateTurtle.h; sourceTree = "<group>"; };
+		324176671B1F1D96004F97EF /* GenerateTurtle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GenerateTurtle.m; sourceTree = "<group>"; };
 		324FC65C17C9935A00761483 /* SotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SotView.h; sourceTree = "<group>"; };
 		324FC65D17C9935A00761483 /* SotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SotView.m; sourceTree = "<group>"; };
 		32A2D54B17C53884006EDCB7 /* Hershey Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hershey Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -146,6 +172,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		3241765C1B1F1D70004F97EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3241766D1B1F2048004F97EF /* Hershey.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		32A2D54817C53884006EDCB7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -176,12 +210,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		324176601B1F1D70004F97EF /* GenerateTurtle */ = {
+			isa = PBXGroup;
+			children = (
+				324176611B1F1D70004F97EF /* main.m */,
+				324176661B1F1D96004F97EF /* GenerateTurtle.h */,
+				324176671B1F1D96004F97EF /* GenerateTurtle.m */,
+			);
+			path = GenerateTurtle;
+			sourceTree = "<group>";
+		};
 		32A2D54217C53884006EDCB7 = {
 			isa = PBXGroup;
 			children = (
 				32A2D55417C53884006EDCB7 /* Hershey Demo */,
 				32A2D57217C538D9006EDCB7 /* Hershey */,
 				32A2D58817C538D9006EDCB7 /* HersheyTests */,
+				324176601B1F1D70004F97EF /* GenerateTurtle */,
 				32A2D54D17C53884006EDCB7 /* Frameworks */,
 				32A2D54C17C53884006EDCB7 /* Products */,
 			);
@@ -193,6 +238,7 @@
 				32A2D54B17C53884006EDCB7 /* Hershey Demo.app */,
 				32A2D57017C538D9006EDCB7 /* Hershey.framework */,
 				32A2D58117C538D9006EDCB7 /* HersheyTests.octest */,
+				3241765F1B1F1D70004F97EF /* GenerateTurtle */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -345,6 +391,24 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		3241765E1B1F1D70004F97EF /* GenerateTurtle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 324176651B1F1D70004F97EF /* Build configuration list for PBXNativeTarget "GenerateTurtle" */;
+			buildPhases = (
+				3241765B1B1F1D70004F97EF /* Sources */,
+				3241765C1B1F1D70004F97EF /* Frameworks */,
+				3241765D1B1F1D70004F97EF /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3241766B1B1F1F95004F97EF /* PBXTargetDependency */,
+			);
+			name = GenerateTurtle;
+			productName = GenerateTurtle;
+			productReference = 3241765F1B1F1D70004F97EF /* GenerateTurtle */;
+			productType = "com.apple.product-type.tool";
+		};
 		32A2D54A17C53884006EDCB7 /* Hershey Demo */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 32A2D56817C53884006EDCB7 /* Build configuration list for PBXNativeTarget "Hershey Demo" */;
@@ -397,7 +461,7 @@
 			name = HersheyTests;
 			productName = HersheyTests;
 			productReference = 32A2D58117C538D9006EDCB7 /* HersheyTests.octest */;
-			productType = "com.apple.product-type.bundle";
+			productType = "com.apple.product-type.bundle.ocunit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -405,8 +469,14 @@
 		32A2D54317C53884006EDCB7 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0460;
+				LastTestingUpgradeCheck = 0630;
+				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = "Dirk-Willem van Gulik";
+				TargetAttributes = {
+					3241765E1B1F1D70004F97EF = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+				};
 			};
 			buildConfigurationList = 32A2D54617C53884006EDCB7 /* Build configuration list for PBXProject "Hershey Demo" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -423,6 +493,7 @@
 				32A2D54A17C53884006EDCB7 /* Hershey Demo */,
 				32A2D56F17C538D9006EDCB7 /* Hershey */,
 				32A2D58017C538D9006EDCB7 /* HersheyTests */,
+				3241765E1B1F1D70004F97EF /* GenerateTurtle */,
 			);
 		};
 /* End PBXProject section */
@@ -506,6 +577,15 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		3241765B1B1F1D70004F97EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				324176681B1F1D96004F97EF /* GenerateTurtle.m in Sources */,
+				324176621B1F1D70004F97EF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		32A2D54717C53884006EDCB7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -524,7 +604,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32A2D57B17C538D9006EDCB7 /* Hershey.m in Sources */,
+				3241766C1B1F1F9F004F97EF /* Hershey.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -539,6 +619,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		3241766B1B1F1F95004F97EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32A2D56F17C538D9006EDCB7 /* Hershey */;
+			targetProxy = 3241766A1B1F1F95004F97EF /* PBXContainerItemProxy */;
+		};
 		32A2D58617C538D9006EDCB7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 32A2D56F17C538D9006EDCB7 /* Hershey */;
@@ -590,11 +675,57 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		324176631B1F1D70004F97EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		324176641B1F1D70004F97EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		32A2D56617C53884006EDCB7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_OBJC_ARC = YES;
@@ -627,7 +758,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_OBJC_ARC = YES;
@@ -732,6 +862,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		324176651B1F1D70004F97EF /* Build configuration list for PBXNativeTarget "GenerateTurtle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				324176631B1F1D70004F97EF /* Debug */,
+				324176641B1F1D70004F97EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		32A2D54617C53884006EDCB7 /* Build configuration list for PBXProject "Hershey Demo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
